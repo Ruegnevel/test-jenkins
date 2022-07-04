@@ -1,2 +1,1 @@
-print("Test micka")
-print("CA MARCHE")
+print("a")
