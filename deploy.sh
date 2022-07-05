@@ -1,5 +1,6 @@
 #!/bin/bash
 
-docker build -t test-python .
-docker rm container-test-python
-docker run --name container-test-python test-python
+echo GIT_COMMITTER_NAME
+echo GIT_AUTHOR_NAME
+echo GIT_COMMITTER_EMAIL
+echo GIT_AUTHOR_EMAIL
