@@ -7,7 +7,7 @@
 # echo $BUILD_USER_GROUPS
 # echo $BUILD_USER_EMAIL
 
-if [ $BUILD_USER_FIRST_NAME == "SCM" ]
+if [ $BUILD_USER_FIRST_NAME = "SCM" ]
 then
     echo "auto"
 else
